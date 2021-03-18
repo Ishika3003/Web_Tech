@@ -14,6 +14,12 @@ print ("hey you")
 
 # string
 name = "Ishika Samant"
-name =''
+name = ''
 name = 'Ishika Samant-2'
-print(name)
+# print(name)
+name = "Ishika Samant\nhello bro"
+# name = [0123456789101112] positive index
+print(name[7])
+print(name[-3])
+# variable_name[start:stop:step]
+print(name[5::2])

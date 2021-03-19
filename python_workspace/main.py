@@ -1,15 +1,15 @@
 # ishsmnt
 
 # the print function
-print(9)
 print('String')
-print(9.89)
-print(5+6j)
 print('Ishika','kartik','Riya',end= '  ')
 print('Samant')
 print ("hey you")
 
 # numbers
+print(9.89)
+print(5+6j)
+print(9)
 
 
 # string
@@ -22,4 +22,14 @@ name = "Ishika Samant\nhello bro"
 print(name[7])
 print(name[-3])
 # variable_name[start:stop:step]
-print(name[5::2])
+surname = ' Samant '
+siblings = surname.join(['Ishika','Riya','Kartik Samant'])
+print(siblings)
+string = 'hey i am ishika samant'
+print(string.capitalize())
+
+print(dir('ishika'))
+print(string.count('a'))
+
+
+

@@ -22,14 +22,33 @@ name = "Ishika Samant\nhello bro"
 print(name[7])
 print(name[-3])
 # variable_name[start:stop:step]
+
+
 surname = ' Samant '
 siblings = surname.join(['Ishika','Riya','Kartik Samant'])
 print(siblings)
-string = 'hey i am ishika samant'
-print(string.capitalize())
+string = 'Hello i am IShika samant'
+# print(string.capitalize())
+# print(dir('ishika'))
+# print(string.count('a'))
+#print(string.istitle())
+# print(string.istitle())
+# print(string.title())
+# print(string.lower())
+# print(string.upper())
+# print(string.isupper())
+# print(string.islower())
+# print(string.swapcase())
+print(string.strip())
+def fun(a,b):
+ """author: ishsmnt
+ parameters: int,int
+ fun(5,6) -> 5+6
+ return type: int"""
+ return a+b
 
-print(dir('ishika'))
-print(string.count('a'))
-
-
-
+print(help(fun))
+string = 'Hey there..! It\'s Ishika Samant.'
+print(string.find('h'))
+print(string.find('h',6,))
+print(string.find('h',6,9))

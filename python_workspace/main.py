@@ -52,3 +52,7 @@ string = 'Hey there..! It\'s Ishika Samant.'
 print(string.find('h'))
 print(string.find('h',6,))
 print(string.find('h',6,9))
+name = 'Ishika'
+print(name.replace('I','E'))
+name = name.replace('I','E')
+print(name)

@@ -2,13 +2,13 @@
 n = int(input("enter a number: "))
 i=2
 isPrime = 1
-while(i<=n/2):
-    if(n%2==0):
-        isPrime=0
+while(i <= n/2):
+    if(n%2 == 0):
+        isPrime = 0
         break
     i+=1   
     
-if(isPrime==0):
+if(isPrime == 0):
     print(f"{n} is not prime")
 else:
     print(f"{n} is prime")

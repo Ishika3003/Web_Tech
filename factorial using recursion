@@ -1,0 +1,9 @@
+#factorial through recursion
+def factorial(num):
+    if (num==1):
+        return 1  #base case
+    else:
+        return num*factorial(num-1)
+factorial(6)
+
+#output 720

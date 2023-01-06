@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x_axis = np.array([1980,1990,2000,2010,2020])
+male_population = np.array([200,320,420,300,500])
+female_population = np.array([210,300,320,430,600])
+
+plt.bar(x_axis - 0.4,male_population,width=0.8,label="Male Polulation",color="#eeff24")
+plt.bar(x_axis + 0.4,female_population,width=0.8,label="female Polulation")
+
+plt.xlabel('year')
+plt.ylabel('population')
+plt.legend()
+plt.show()
+
